@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Made‑To‑Order | Joy in A Box</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-container"><div class="logo"><a href="index.html"><img src="https://placehold.co/180x60/FFF5E8/6B4E3E?text=Joy+in+A+Box" alt="Logo"></a></div><div class="top-icons"><a href="#"><i class="fas fa-user-circle"></i></a><a href="#"><i class="fas fa-heart"></i></a><a href="#"><i class="fas fa-shopping-cart"></i></a></div></div>
+  <nav class="main-nav"><ul class="nav-menu"><li><a href="index.html">Home</a></li><li class="dropdown"><a href="decor.html">Home Décor <i class="fas fa-chevron-down"></i></a><ul class="submenu"><li><a href="decor.html">Vases</a></li><li><a href="decor.html">Lighting</a></li></ul></li><li><a href="made-to-order.html">Made‑To‑Order</a></li><li><a href="fluff-snuggles.html">Fluff & Snuggles</a></li><li><a href="contact.html">Contact/About</a></li></ul></nav>
+</header>
+
+<main>
+  <section class="made-to-order-section">
+    <h2>Custom Creations, Tailored for You</h2>
+    <div class="process-steps">
+      <div class="step"><img src="consultant.jpg" width="200" height="200"></i><h3>1. Consultation</h3><p>Share your vision with our designers.</p></div>
+      <div class="step"><img src="mockup.png" width="200" height="200"></i><h3>2. Design Mockup</h3><p>We'll send a digital preview.</p></div>
+      <div class="step"><img src="manmade.jpg" width="200" height="200"></i><h3>3. Handcrafted</h3><p>Made by artisans with premium materials.</p></div>
+      <div class="step"><img src="delivery.jpg" width="200" height="200"></i><h3>4. Delivered</h3><p>Joy arrives at your doorstep.</p></div>
+    </div>
+    
+    <div class="order-form">
+      <h3>Request a Custom Piece</h3>
+      <form>
+        <div class="form-group"><input type="text" placeholder="Your Name" required></div>
+        <div class="form-group"><input type="email" placeholder="Email Address" required></div>
+        <div class="form-group"><select><option>Select category: Furniture</option><option>Textile / Rug</option><option>Wall Art</option><option>Lighting</option></select></div>
+        <div class="form-group"><textarea rows="3" placeholder="Describe your dream piece..."></textarea></div>
+        <button class="btn-primary" type="submit">Send Inquiry</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="footer-grid"><div class="footer-col"><h4>Joy in A Box</h4><p>Made‑to‑order with love.</p></div><div class="footer-col"><h4>Contact</h4><p>custom@joyinabox.com</p></div><div class="footer-col social"><h4>Follow</h4><div class="social-icons"><a href="#"><i class="fab fa-instagram"></i></a></div></div></div><div class="footer-bottom"><p>&copy; 2025 Joy in A Box</p></div></footer>
+<div class="floating-buttons"><a href="#" class="scroll-top" id="scrollTopBtn"><i class="fas fa-arrow-up"></i></a><a href="https://wa.me/15557890234" class="whatsapp-btn" target="_blank"><i class="fab fa-whatsapp"></i></a></div>
+<script>const btn=document.getElementById('scrollTopBtn');window.addEventListener('scroll',()=>{if(window.scrollY>300){btn.style.opacity='1';btn.style.visibility='visible';}else{btn.style.opacity='0';btn.style.visibility='hidden';}});btn.addEventListener('click',(e)=>{e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});</script>
+</body>
+</html>
